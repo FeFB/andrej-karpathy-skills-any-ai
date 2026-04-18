@@ -8,7 +8,7 @@ Antigravity automatically reads its environment and project context. The easiest
 
 ```bash
 # Add it as RULES.md to your project
-curl -o RULES.md https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md
+curl -o RULES.md https://raw.githubusercontent.com/FeFB/andrej-karpathy-skills-any-ai/main/CLAUDE.md
 ```
 
 Whenever you work in this workspace, Antigravity will pick up the rules and automatically adapt its behavior to think before coding, prioritize simplicity, and keep changes surgical.
@@ -19,6 +19,6 @@ Antigravity utilizes a powerful Knowledge Item (KI) system to establish persiste
 
 1. Open your Antigravity chat in any new workspace.
 2. Prompt it with:
-   > "Please review the guidelines in `https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md` (or your local copy) and create a new globally applicable Knowledge Item (KI) containing these principles. Ensure you apply these rules during all of our coding sessions in this project."
+   > "Please review the guidelines in `https://raw.githubusercontent.com/FeFB/andrej-karpathy-skills-any-ai/main/CLAUDE.md` (or your local copy) and create a new globally applicable Knowledge Item (KI) containing these principles. Ensure you apply these rules during all of our coding sessions in this project."
 
 Antigravity will write a curated summary within its knowledge system, ensuring it checks and follows these guidelines at the start of every session before beginning execution.

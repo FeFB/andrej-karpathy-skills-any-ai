@@ -100,7 +100,7 @@ Strong success criteria let the LLM loop independently. Weak criteria ("make it 
 
 From within Claude Code, first add the marketplace:
 ```
-/plugin marketplace add forrestchang/andrej-karpathy-skills
+/plugin marketplace add FeFB/andrej-karpathy-skills-any-ai
 ```
 
 Then install the plugin:
@@ -114,13 +114,13 @@ This installs the guidelines as a Claude Code plugin, making the skill available
 
 New project:
 ```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md
+curl -o CLAUDE.md https://raw.githubusercontent.com/FeFB/andrej-karpathy-skills-any-ai/main/CLAUDE.md
 ```
 
 Existing project (append):
 ```bash
 echo "" >> CLAUDE.md
-curl https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md >> CLAUDE.md
+curl https://raw.githubusercontent.com/FeFB/andrej-karpathy-skills-any-ai/main/CLAUDE.md >> CLAUDE.md
 ```
 
 **Option C: Antigravity & Other AI Agents**
@@ -131,7 +131,7 @@ For Cursor, Windsurf, or other AI agents, simply keep the `CLAUDE.md` file (or c
 
 ```bash
 # Example: Using as a general rules file
-curl -o RULES.md https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/antigravity/RULES.md
+curl -o RULES.md https://raw.githubusercontent.com/FeFB/andrej-karpathy-skills-any-ai/main/antigravity/RULES.md
 ```
 
 ## Key Insight
