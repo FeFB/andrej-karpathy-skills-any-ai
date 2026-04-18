@@ -123,6 +123,17 @@ echo "" >> CLAUDE.md
 curl https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md >> CLAUDE.md
 ```
 
+**Option C: Antigravity & Other AI Agents**
+
+For **Antigravity**, there is a dedicated directory. Check out the [Antigravity Guide](antigravity/README.md) to see how to install these guidelines as project Knowledge Items (KIs), or simply copy `antigravity/RULES.md` into your project root.
+
+For Cursor, Windsurf, or other AI agents, simply keep the `CLAUDE.md` file (or copy it as `.cursorrules` or `RULES.md`) in your project root so they can automatically read it.
+
+```bash
+# Example: Using as a general rules file
+curl -o RULES.md https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/antigravity/RULES.md
+```
+
 ## Key Insight
 
 From Andrej:
